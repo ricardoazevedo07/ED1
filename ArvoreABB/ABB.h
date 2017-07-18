@@ -25,4 +25,7 @@ NOVA->DIR = dir;
 return NOVA;
 }
 
+int VAZIA(ARVORE *A){
+return A==NULL;
+}
 
