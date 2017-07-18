@@ -2,7 +2,9 @@
 
 typedef struct arvore{
 char info
-struct *arvore;
+struct *arvore dir;
+struct *arvore esq;
+
 }ARVORE;
 
 //ABAIXO FUN합ES DE CRIA플O DA ARVORE.
@@ -10,4 +12,8 @@ struct *arvore;
 ARVORE *CRIA_VAZIA(){
 return NULL;
 }
+
+//FUN플O DE INSER플O NA ARVORE.
+
+
 
